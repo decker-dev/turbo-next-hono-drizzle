@@ -1,0 +1,23 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema.ts",
+    "./connection": "./src/connection.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "lint": "echo ok"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.44.7",
+    "postgres": "3.4.7"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "22.15.3",
+    "typescript": "5.9.2"
+  }
+}

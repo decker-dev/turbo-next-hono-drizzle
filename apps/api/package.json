@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/dev.ts",
+    "check-types": "tsc --noEmit",
+    "lint": "echo ok"
+  },
+  "dependencies": {
+    "@hono/node-server": "1.19.11",
+    "@hono/zod-openapi": "1.2.2",
+    "@scalar/hono-api-reference": "0.10.2",
+    "@repo/database": "workspace:*",
+    "drizzle-orm": "0.44.7",
+    "hono": "4.12.7",
+    "zod": "4.1.11"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "22.15.3",
+    "tsx": "4.21.0",
+    "typescript": "5.9.2"
+  }
+}
