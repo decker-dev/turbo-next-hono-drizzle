@@ -1,7 +1,5 @@
 import { Hono } from "hono";
-import { db } from "@repo/database";
-import { user } from "@repo/database";
-import { count } from "drizzle-orm";
+import { db, user, count } from "@repo/database";
 
 const app = new Hono();
 

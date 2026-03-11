@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@repo/database": "workspace:*",
-    "drizzle-orm": "0.44.7",
     "hono": "4.12.7"
   },
   "devDependencies": {
